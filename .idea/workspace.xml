@@ -5,14 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="711231de-b7c2-4199-83b6-a87c860e62f4" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/../LLM/Tutorial/usemodel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TalkFlow" beforeDir="false" afterPath="$PROJECT_DIR$/../TalkFlow" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/CLIHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChatDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChatDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Responses.java" beforeDir="false" afterPath="$PROJECT_DIR$/Responses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalkFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/TalkFlow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/CLIHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/ChatDatabase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/Responses.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/TalkFlow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/build/classes/java/main/chatbot/CLIHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/build/classes/java/main/chatbot/ChatDatabase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/build/classes/java/main/chatbot/Responses.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/build/classes/java/main/chatbot/TalkFlow$ApiHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/build/classes/java/main/chatbot/TalkFlow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,12 +43,7 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="TalkFlow_Backend" type="f1a62948:ProjectNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </tree_state>
         </projects_view>
@@ -45,7 +51,10 @@
     </system>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="showPreview" value="true" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -60,7 +69,7 @@
   &quot;keyToString&quot;: {
     &quot;Gradle.Backend.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/ravis/OneDrive/Desktop/Projects/Chatbot/TalkFlow_Backend&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -68,10 +77,25 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="TalkFlow_Backend" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="TalkFlow_Backend" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -96,7 +120,9 @@
       <workItem from="1741367309582" duration="203000" />
       <workItem from="1741788311764" duration="534000" />
       <workItem from="1741788878823" duration="1656000" />
-      <workItem from="1741946631044" duration="237000" />
+      <workItem from="1741946631044" duration="895000" />
+      <workItem from="1741952444879" duration="10000" />
+      <workItem from="1741952712739" duration="671000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -122,7 +148,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741789587920</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1741947061399</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1741947061399</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,10 +215,30 @@
     {
       "branch": "main",
       "currentBranchFilter": true
+    },
+    {
+      "branch": "main",
+      "currentBranchFilter": true
+    },
+    {
+      "branch": "master",
+      "currentBranchFilter": true
+    },
+    {
+      "branch": "master",
+      "currentBranchFilter": true
+    },
+    {
+      "branch": "master",
+      "currentBranchFilter": true
+    },
+    {
+      "branch": "master",
+      "currentBranchFilter": true
     }
   ],
   "lastFilter": {
-    "branch": "main",
+    "branch": "master",
     "currentBranchFilter": true
   }
 }]]></component>
