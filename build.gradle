@@ -1,0 +1,61 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group = 'com.talkflow'
+version = '1.0-SNAPSHOT'
+sourceCompatibility = '11'
+
+sourceSets {
+    main {
+        java {
+            srcDirs = ['.']
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.json:json:20231013'
+    implementation 'org.xerial:sqlite-jdbc:3.42.0.0'
+    implementation 'org.postgresql:postgresql:42.7.3'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.9.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.9.2'
+}
+
+application {
+    mainClass = 'chatbot.TalkFlow'
+}
+
+jar {
+    manifest {
+        attributes(
+            'Main-Class': 'chatbot.TalkFlow'
+        )
+    }
+    
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+    
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+}
+
+test {
+    useJUnitPlatform()
+}
+
+task runServer(type: JavaExec) {
+    classpath = sourceSets.main.runtimeClasspath
+    mainClass = 'chatbot.TalkFlow'
+}
+
+task runCli(type: JavaExec) {
+    classpath = sourceSets.main.runtimeClasspath
+    mainClass = 'chatbot.TalkFlow'
+    args = ['--cli']
+}
