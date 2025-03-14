@@ -28,13 +28,13 @@ dependencies {
 }
 
 application {
-    mainClass = 'chatbot.TalkFlow'
+    mainClass = 'TalkFlow_Backend.TalkFlow'  // Fixed package name
 }
 
 jar {
     manifest {
         attributes(
-            'Main-Class': 'chatbot.TalkFlow'
+            'Main-Class': 'TalkFlow_Backend.TalkFlow'  // Fixed package name
         )
     }
     
@@ -51,11 +51,11 @@ test {
 
 task runServer(type: JavaExec) {
     classpath = sourceSets.main.runtimeClasspath
-    mainClass = 'chatbot.TalkFlow'
+    mainClass = 'TalkFlow_Backend.TalkFlow'  // Fixed package name
 }
 
 task runCli(type: JavaExec) {
     classpath = sourceSets.main.runtimeClasspath
-    mainClass = 'chatbot.TalkFlow'
+    mainClass = 'TalkFlow_Backend.TalkFlow'  // Fixed package name
     args = ['--cli']
 }
